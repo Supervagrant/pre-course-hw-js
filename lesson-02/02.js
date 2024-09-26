@@ -1,8 +1,10 @@
 // code
 function factorial(n) {
     if (n === 0 || n === 1) {
+        debugger;
         return 1;
     } else {
+        debugger;
         return n * factorial(n - 1);
     }
 }
